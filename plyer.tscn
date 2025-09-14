@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://dnhhfgiw75sa1"]
+
+[ext_resource type="PackedScene" uid="uid://be8w47wtlc7r5" path="res://art/Spaceship.glb" id="1_4xnfs"]
+[ext_resource type="Script" uid="uid://ct2occmfkb336" path="res://plyer.gd" id="1_nspea"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nspea"]
+size = Vector3(2.14332, 0.473174, 2.61711)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_10no6"]
+size = Vector3(2.71521, 0.341431, 3.19104)
+
+[node name="Player" type="CharacterBody3D"]
+collision_mask = 6
+script = ExtResource("1_nspea")
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Root Scene" parent="Pivot" instance=ExtResource("1_4xnfs")]
+transform = Transform3D(-0.2, 0, -3.01992e-08, 0, 0.2, 0, 3.01992e-08, 0, -0.2, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0322189, 0.150413, -0.209219)
+shape = SubResource("BoxShape3D_nspea")
+
+[node name="MobDetector" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MobDetector"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0471802, 0.329285, -0.263367)
+shape = SubResource("BoxShape3D_10no6")
+debug_color = Color(0.924265, 0, 0.166084, 0.42)
+
+[connection signal="body_entered" from="MobDetector" to="." method="_on_mob_detector_body_entered"]
