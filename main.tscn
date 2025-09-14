@@ -142,7 +142,7 @@ offset_left = 163.0
 offset_top = 21.0
 offset_right = 510.0
 offset_bottom = 51.0
-text = "663380251-8 กฤษณพงษ์  สงครามสงค์"
+text = "663380251-8 Krissanapong  Songkramsong"
 
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
