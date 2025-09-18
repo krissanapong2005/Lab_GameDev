@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://efe3anxnk2ud"]
+
+[ext_resource type="PackedScene" uid="uid://saaivjo6lf26" path="res://assets/model/BreathingIdle.tscn" id="1_blsn8"]
+[ext_resource type="Script" uid="uid://bwavvttiojxkg" path="res://assets/model/demo.gd" id="1_cghyn"]
+[ext_resource type="PackedScene" uid="uid://cntvp6d1x4k0c" path="res://assets/model/Dead.tscn" id="2_cghyn"]
+[ext_resource type="PackedScene" uid="uid://6meymc1g6nmn" path="res://assets/model/Running.tscn" id="3_3nr15"]
+[ext_resource type="PackedScene" uid="uid://dbh5tox3l8wcw" path="res://assets/model/Walking.tscn" id="4_pyp7y"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_cghyn")
+
+[node name="BreathingIdle" parent="." instance=ExtResource("1_blsn8")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -2, 0, 2)
+
+[node name="Dead" parent="." instance=ExtResource("2_cghyn")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 2.59953, 0, 1.45339)
+
+[node name="Running" parent="." instance=ExtResource("3_3nr15")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -5.87247, -0.372894, 1.26148)
+
+[node name="Walking" parent="." instance=ExtResource("4_pyp7y")]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 6.05946, 0, 1.56443)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.999973, 0.000826231, -0.00731873, 0, 0.993688, 0.11218, 0.00736522, -0.112177, 0.993661, 0.31461, 3.03862, 11.0011)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.928122, 0.372275, 0, -0.372275, 0.928122, 0, 15.4451, 0)
