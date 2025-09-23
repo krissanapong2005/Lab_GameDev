@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdw2mgl7yquwl"]
+
+[ext_resource type="PackedScene" uid="uid://6yo84h3q6e7s" path="res://assets/model/Soilder.fbx" id="1_tuo1o"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Soilder" parent="." instance=ExtResource("1_tuo1o")]

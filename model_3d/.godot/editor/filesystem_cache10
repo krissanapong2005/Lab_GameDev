@@ -1,19 +1,28 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758185258
-icon.svg::CompressedTexture2D/CompressedTexture2D::7018923485997662455::1758175773::1758175781::1::::<><><>0<>0<>819370ab6a81a0e9d4498794ee2041ef<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://assets/::1758177597
-Locomotion-Library.res::AnimationLibrary/AnimationLibrary::-1::1758175935::0::1::::<><><>0<>0<><>::
-Melee-Library--OLD.res::AnimationLibrary/AnimationLibrary::-1::1758175935::0::1::::<><><>0<>0<><>::
-Mixamo BoneMap.tres::BoneMap/BoneMap::-1::1758176000::0::1::::<><><>0<>0<><>::
-::res://assets/model/::1758185269
-Breathing Idle.fbx::PackedScene/PackedScene::3006825777680068534::1758178034::1758179861::1::::<><><>0<>0<>2c290461fcc212ac6534924964d97bb1<>res://.godot/imported/Breathing Idle.fbx-2b8cb26e7e3574f70921ff28a1512d56.scn::
-Breathing Idle.tscn::PackedScene::1263414589407376273::1758185269::0::1::::<><><>0<>0<><>::
-Dead.fbx::PackedScene/PackedScene::2008762811129820805::1758180127::1758182416::1::::<><><>0<>0<>85c6c1340377058b61870dca9c900046<>res://.godot/imported/Dead.fbx-608be6db70127e0648f24d80de22d2bc.scn::
-Dead.tscn::PackedScene::5725822989835904724::1758185269::0::1::::<><><>0<>0<><>::
-demo.gd::GDScript::3931888829927421470::1758185506::0::1::::<>Node3D<><>0<>0<><>::
-demo.tscn::PackedScene::291370154668100823::1758185506::0::1::::<><><>0<>0<><>::uid://saaivjo6lf26::::res://assets/model/Breathing Idle.tscn<>uid://bwavvttiojxkg::::res://assets/model/demo.gd<>uid://cntvp6d1x4k0c::::res://assets/model/Dead.tscn<>uid://6meymc1g6nmn::::res://assets/model/Running.tscn<>uid://dbh5tox3l8wcw::::res://assets/model/Walking.tscn
-node_3d.tscn::PackedScene/PackedScene::900374369876281288::1758180154::0::1::::<><><>0<>0<><>::uid://saaivjo6lf26::::res://assets/model/Breathing Idle.tscn
-Running.fbx::PackedScene/PackedScene::945102083913742066::1758180122::1758182799::1::::<><><>0<>0<>03ed29e0aafdd5b222be10648c7ebdb4<>res://.godot/imported/Running.fbx-56bef2880e4026e7d9f76a73fb53fb48.scn::
-Running.tscn::PackedScene::2200913047412888049::1758185269::0::1::::<><><>0<>0<><>::
-Walking (1).fbx::PackedScene/PackedScene::2227930448629399843::1758177605::1758182416::1::::<><><>0<>0<>f797d86b384f3d5cd50c378739f49e38<>res://.godot/imported/Walking (1).fbx-4fc7b70d32bc14e5b729e53e9899cb9a.scn::
-Walking.tscn::PackedScene::7245757751008558634::1758185269::0::1::::<><><>0<>0<><>::res://assets/Melee-Library--OLD.res
+::res://::1758619238
+export_presets.cfg::TextFile/TextFile::-1::1758619238::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::7018923485997662455::1758356840::1758356962::1::::<><><>0<>0<>819370ab6a81a0e9d4498794ee2041ef<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+index.apple-touch-icon.png::CompressedTexture2D::6570160858359123059::1758619238::1758619266::1::::<><><>0<>0<>e3e17bf0f52befd8b1916a61c02a6d83<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D::8820086447005291701::1758619238::1758619266::1::::<><><>0<>0<>b97249675d5723da33f2bb8452acc615<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.png::CompressedTexture2D::861095831822910368::1758619238::1758619266::1::::<><><>0<>0<>b1127ae4a4969f23257bdfd39c3ae442<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+soilder.tscn::PackedScene/PackedScene::2644064647147674375::1758535077::0::1::::<><><>0<>0<><>::uid://6yo84h3q6e7s::::res://assets/model/Soilder.fbx
+::res://assets/::1758534749
+Environment_PalmTree_3.fbx::PackedScene/PackedScene::1970841142097561268::1758534723::1758534749::1::::<><><>0<>0<>b7733aa07f66518e92b2547bec2deb5f<>res://.godot/imported/Environment_PalmTree_3.fbx-d7c8b54ed90f1f5594ddc7e879779592.scn::uid://li5jowl875s7::::res://assets/Environment_PalmTree_3_0.png
+Environment_PalmTree_3_0.png::CompressedTexture2D/CompressedTexture2D::790430653836753388::1758534748::1758534749::1::::<><><>0<>0<>fbd3109ae98f9580fe2c93e5dff3c2a7<>res://.godot/imported/Environment_PalmTree_3_0.png-a79ff066de83b10ea4efb173e8a23a0c.s3tc.ctex::
+Locomotion-Library.res::AnimationLibrary/AnimationLibrary::8724105843146401664::1758356840::0::1::::<><><>0<>0<><>::
+Melee-Library--OLD.res::AnimationLibrary/AnimationLibrary::1360098959342803832::1758356840::0::1::::<><><>0<>0<><>::
+Mixamo BoneMap.tres::BoneMap/BoneMap::669624810488455992::1758356840::0::1::::<><><>0<>0<><>::
+Tree.glb::PackedScene/PackedScene::8052792952134630630::1758534490::1758534677::1::::<><><>0<>0<>560bd0a45d77d6535724b6a1f1a57646<>res://.godot/imported/Tree.glb-e9de56bf71533d71d1eea4c9818e97e2.scn::
+::res://assets/model/::1758539156
+Breathing Idle.fbx::PackedScene/PackedScene::3006825777680068534::1758356840::1758356963::1::::<><><>0<>0<>2c290461fcc212ac6534924964d97bb1<>res://.godot/imported/Breathing Idle.fbx-2b8cb26e7e3574f70921ff28a1512d56.scn::
+BreathingIdle.tscn::PackedScene::1263414589407376273::1758539156::0::1::::<><><>0<>0<><>::
+Dead.fbx::PackedScene/PackedScene::2008762811129820805::1758356840::1758356963::1::::<><><>0<>0<>85c6c1340377058b61870dca9c900046<>res://.godot/imported/Dead.fbx-608be6db70127e0648f24d80de22d2bc.scn::
+Dead.tscn::PackedScene::5725822989835904724::1758539156::0::1::::<><><>0<>0<><>::
+demo.gd::GDScript/GDScript::3931888829927421470::1758356840::0::1::::<>Node3D<><>0<>0<><>::
+demo.tscn::PackedScene::291370154668100823::1758539156::0::1::::<><><>0<>0<><>::uid://saaivjo6lf26::::res://assets/model/BreathingIdle.tscn<>uid://bwavvttiojxkg::::res://assets/model/demo.gd<>uid://cntvp6d1x4k0c::::res://assets/model/Dead.tscn<>uid://6meymc1g6nmn::::res://assets/model/Running.tscn<>uid://dbh5tox3l8wcw::::res://assets/model/Walking.tscn
+node_3d.tscn::PackedScene/PackedScene::900374369876281288::1758356840::0::1::::<><><>0<>0<><>::uid://saaivjo6lf26::::res://assets/model/BreathingIdle.tscn
+Running.fbx::PackedScene/PackedScene::945102083913742066::1758356840::1758356963::1::::<><><>0<>0<>03ed29e0aafdd5b222be10648c7ebdb4<>res://.godot/imported/Running.fbx-56bef2880e4026e7d9f76a73fb53fb48.scn::
+Running.tscn::PackedScene::2200913047412888049::1758539156::0::1::::<><><>0<>0<><>::
+Soilder.fbx::PackedScene/PackedScene::2226309723259613082::1758534867::1758538039::1::::<><><>0<>0<>4dc4f3e78d8daf2d6ff83f8bc9c63cfb<>res://.godot/imported/Soilder.fbx-187d5ed8616287ab85485fbb9ade714e.scn::
+Walking (1).fbx::PackedScene/PackedScene::2227930448629399843::1758356840::1758356963::1::::<><><>0<>0<>f797d86b384f3d5cd50c378739f49e38<>res://.godot/imported/Walking (1).fbx-4fc7b70d32bc14e5b729e53e9899cb9a.scn::
+Walking.tscn::PackedScene::7245757751008558634::1758539156::0::1::::<><><>0<>0<><>::uid://tm3vpuvbe0rc::::res://assets/Melee-Library--OLD.res

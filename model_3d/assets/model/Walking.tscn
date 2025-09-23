@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=4 uid="uid://dbh5tox3l8wcw"]
 
-[ext_resource type="AnimationLibrary" path="res://assets/Melee-Library--OLD.res" id="1_mtfsi"]
+[ext_resource type="AnimationLibrary" uid="uid://tm3vpuvbe0rc" path="res://assets/Melee-Library--OLD.res" id="1_mtfsi"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2rmio"]
 resource_name = "Material"
